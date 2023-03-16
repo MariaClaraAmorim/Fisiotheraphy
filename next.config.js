@@ -3,6 +3,10 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
 
-module.exports = nextConfig
+  images: {
+    domains: ["images.unsplash.com", "s3.us-west-2.amazonaws.com", "www.google.com"],
+  },
+};
+
+module.exports = nextConfig;

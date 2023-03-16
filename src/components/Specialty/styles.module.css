@@ -1,0 +1,8 @@
+.text {
+    color: #fff;
+    font-family: monospace;
+    text-align: justify;
+    font-weight: bold;
+    font-size: clamp(0.9rem, 1vw, 1.4rem);
+  }
+  
