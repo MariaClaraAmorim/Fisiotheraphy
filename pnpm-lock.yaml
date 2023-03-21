@@ -7,6 +7,7 @@ specifiers:
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
   '@types/react-slick': ^0.23.10
+  embla-carousel-react: ^7.1.0
   eslint: 8.35.0
   eslint-config-next: 13.2.3
   next: 13.2.4
@@ -26,6 +27,7 @@ dependencies:
   '@types/node': 18.14.6
   '@types/react': 18.0.28
   '@types/react-dom': 18.0.11
+  embla-carousel-react: 7.1.0_react@18.2.0
   eslint: 8.35.0
   eslint-config-next: 13.2.3_ycpbpc6yetojsgtrx3mwntkhsu
   next: 13.2.4_biqbaboplfbrettd7655fr4n2y
@@ -677,6 +679,19 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       esutils: 2.0.3
+    dev: false
+
+  /embla-carousel-react/7.1.0_react@18.2.0:
+    resolution: {integrity: sha512-tbYRPRZSDNd2QLNqYDcArAakGIxtUbhS7tkP0dGXktXHGgcX+3ji3VrOUTOftBiujZrMV8kRxtrRUe/1soloIQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.1 || ^18.0.0
+    dependencies:
+      embla-carousel: 7.1.0
+      react: 18.2.0
+    dev: false
+
+  /embla-carousel/7.1.0:
+    resolution: {integrity: sha512-Bh8Pa8NWzgugLkf8sAGexQlBCNDFaej5BXiKgQdRJ1mUC9NWBrw9Z23YVPVGkguWoz5LMjZXXFVGCobl3UPt/Q==}
     dev: false
 
   /emoji-regex/9.2.2:

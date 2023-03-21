@@ -1,3 +1,4 @@
+import EmblaCarousel from "@components/emblaCarousel";
 import { History } from "@components/History/history";
 import Image from "next/image";
 import { NotionData } from "src/data/notion";
@@ -7,6 +8,10 @@ import css from "./styles.module.css";
 export function Parallax({ data }: { data: NotionData[] }) {
   return (
     <>
+      <section className={css.sandboxCarousel}>
+        <EmblaCarousel />
+      </section>
+
       <section className={css.parallaxContainer}>
         <History />
       </section>
